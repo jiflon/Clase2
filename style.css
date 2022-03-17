@@ -1,0 +1,91 @@
+/* ==========================================================================
+** Estilos del sitio
+** 09/03/2022
+** ========================================================================== */
+
+
+/* selector universal para resetear los estilos por defecto */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    background: #f0eeee;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    border: 1px solid red;
+}
+
+footer {
+    border: 1px solid green;
+}
+
+header,
+footer,
+#pagina {
+    width: 90%;
+    max-width: 1200px;
+    /* margin: 20px auto; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pagina {
+    height: 300px;
+    min-height: 300px;
+    border: 1px solid blue;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* estilizar logo y nav */
+
+.logo {
+    width: 50px;
+}
+
+header nav {
+    background-color: #528df5;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+}
+
+.navLink a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.main {
+    /* height: 100%; */
+    width: 100%;
+}
+
+.main .articles {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    float: left;
+    margin-right: 1.5%;
+}
+
+.sidebar {
+    width: 28%;
+    border: 1px solid purple;
+    float: right;
+}
